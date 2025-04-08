@@ -15,7 +15,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection string
-const uri = 'mongodb://localhost:27017/cricket';
+const uri = 'mongodb+srv://rksharma7071:GJKTyItgiNxLMo2L@cluster0.dnar7ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(uri)
   .then(() => console.log('Connected to MongoDB'))
